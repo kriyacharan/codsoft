@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>PortFolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0461b7ef48.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    
+                    <ul id="sidemenu" >
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Works</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                     <p>Hello World,</p>
+                     <h1>I'm <span>Charan Sharma</span></h1>
+                     <p> FRONT END DEVELOPER</p>
+                </div>
+            </div>
+        </div>
+       <!-- ------------about----------- */ -->
+        <div  id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="image/about.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a skilled front-end developer with a strong foundation in HTML, CSS, and JavaScript. I have honed my expertise through hands-on experience, including a Blogger project. As a young and aspiring developer, I am eagerly seeking opportunities to further my knowledge and expand my skill set. I am committed to continuous learning and dedicated to delivering high-quality web experiences. I look forward to contributing to innovative projects and growing as a professional front-end developer."</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML </span><br>Structural Expertise </li>
+                                <li><span>CSS  </span><br>Designing Elegance </li>
+                                <li><span>JavaScript  </span><br>Dynamic Web Developer </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Web Developer Intern at CodSoft</li>
+                               
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024 - Expected </span><br>B.Sc. in Computer Science, RKM Vivekananda College </li>
+                                <li><span>2021  </span><br>12th Standard, Sri Sitaram Vidyalaya Hr. Sec. School</li>
+                                <li><span>2019  </span><br>10th Standard, Sri Sitaram Vidyalaya Hr. Sec. School</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------ services--------- -->
+        <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Crafting digital experiences through coding, designing, and maintaining websites, applications, and web-based solutions</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>Social Media Management</h2>
+                    <p>Expertly curating and organizing digital content</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Canva Designer</h2>
+                    <p> Crafting stunning visuals with finesse</p>
+                    <a href="#">Learn more</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----Portfolio----- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Works</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="image/work1.png">
+                        <div class="layer">
+                            <h3>Universal Research</h3>
+                            <p>Exploring the Boundless Frontiers of Knowledge</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="work">
+                        <img src="image/work2.png">
+                        <div class="layer">
+                            <h3>Canva Designs </h3>
+                            <p>Where Imagination Meets Design</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                         </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/work3.png">
+                            <div class="layer">
+                                <h3>Social Media</h3>
+                                <p>Navigating the Digital Social Landscape</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div><br>
+        <!-- contact -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> cvsharmabm@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i> 9094141572</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © 2023 "CS" All rights reserved</p>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+
+            }
+        </script>
+        <script>
+            var sidemenu= document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbw-vGMjo_rxH3ZaOBB6T613aZ37UsYyVg1X3KarkhSqNZrQ8BWg0gFYwPX7SQ6fwIp6/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Submitted Successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+    </body>
+</html>

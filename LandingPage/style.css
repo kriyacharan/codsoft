@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Set the background image for the entire webpage */
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/05/13/44/beach-832346_1280.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Set text color to ensure readability */
+}
+
+/* styles.css */
+
+/* Set styles for the logo */
+.logo {
+    position: absolute;
+    top: 50px; /* Adjust the top margin as needed */
+    left: 20px; /* Adjust the left margin as needed */
+}
+
+/* Additional styles for the logo image (optional) */
+.logo img {
+    width: 50px; /* Adjust the width of the logo image */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* styles.css */
+
+/* Set styles for the navigation bar */
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: medium;
+    text-align: center;
+    background-color: transparent; /* Adjust background color as needed */
+    padding: 50px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Adjust the horizontal spacing between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Adjust link color */
+    font-weight: bold;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+nav a:hover {
+    color: #0074e4; /* Adjust link color on hover */
+}
+
+/* styles.css */
+
+/* Center-align the search container */
+#search {
+    text-align: center;
+    padding: 50px 0; /* Adjust vertical spacing as needed */
+}
+
+.search-container {
+    display: inline-block;
+    background-color: #fff; /* Adjust background color as needed */
+    border: 1px solid #ddd; /* Adjust border styles as needed */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Style the input and button */
+.search-container input[type="text"] {
+    width: 200px; /* Adjust the input width as needed */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px; /* Adjust button padding as needed */
+    background-color: #0074e4; /* Adjust button color */
+    color: #fff; /* Adjust text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #005cbf; /* Adjust button color on hover */
+}
+
+/* styles.css */
+
+/* Style the portfolio section */
+#portfolio {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 50px 0; /* Adjust vertical spacing as needed */
+}
+
+.portfolio-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 200px; /* Adjust image width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ddd; /* Add a border around the images */
+    border-radius: 5px;
+    transition: transform 0.2s ease; /* Add a subtle hover effect */
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05); /* Enlarge the image on hover */
+}
+
+.portfolio-item p {
+    margin-top: 5px;
+}
+
